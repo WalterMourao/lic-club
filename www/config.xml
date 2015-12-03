@@ -26,5 +26,5 @@
     <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" />
     <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
     <engine name="android" spec="^4.0.0" />
-    <access origin="https://licitacao.club" subdomains="true" />
+    <access origin="https://licitacao.club/assinante" subdomains="true" />
 </widget>

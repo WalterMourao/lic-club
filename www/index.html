@@ -1,12 +1,25 @@
 <!DOCTYPE HTML>
 <html lang="pt" xml:lang="pt">
 <head>
-<title>Aviso de Licitação</title>
+<title>licitação.club</title>
 <meta charset="utf-8" />
 <meta http-equiv="cache-control" content="no-cache">
 <meta name="viewport" content="width=device-width,initial-scale=1" />
-<META http-equiv="refresh" content="1;URL=https://licitacao.club/assinante"> 
+<script type="text/javascript" src="cordova.js"></script>
 </head>
 <body>
+<script type="text/javascript">
+    // Wait for device API libraries to load
+    //
+    document.addEventListener("deviceready", onDeviceReady, false);
+    
+    // device APIs are available
+    //
+    function onDeviceReady() {
+        // external url
+        ref = window.open('https://licitacao.club/assinante', '_blank', 'location=no');
+    }
+
+</script>
 </body>
 </html>
