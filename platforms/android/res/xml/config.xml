@@ -26,5 +26,6 @@
     <icon gap:platform="ios" height="57" src="images/icon-57-hdpi.png" width="57" />
     <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" />
     <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
-    <access origin="https://licitacao.club/assinante" subdomains="true" />
+    <access origin="https://licitacao.club" subdomains="true" />
+    <allow-navigation href="https://licitacao.club/*" />
 </widget>
