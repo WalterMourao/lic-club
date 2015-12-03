@@ -27,5 +27,5 @@
     <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
     <engine name="android" spec="^4.0.0" />
     <access origin="https://licitacao.club" subdomains="true" />
-    <allow-navigation href="https://licitacao.club/*" />
+    <allow-intent href="https://licitacao.club/*" />
 </widget>
