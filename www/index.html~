@@ -43,6 +43,7 @@
        //tratamento de erros
        theWindow.addEventListener("loaderror", function(e){
            //e.code tem o código do erro
+           $.mobile.changePage('Erro.html');
        }, false);
 
        //faz com que o back button do cel. volte para a página inicial
