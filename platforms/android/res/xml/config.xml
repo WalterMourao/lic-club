@@ -1,9 +1,9 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget id="club.licitacao" version="3.0.4" xmlns="http://www.w3.org/ns/widgets" xmlns:android="http://schemas.android.com/apk/res/android" xmlns:gap="http://phonegap.com/ns/1.0">
     <preference name="loglevel" value="DEBUG" />
-    <name>licitação.club</name>
+    <name>licitacao .club</name>
     <description>
-        licitação.club
+        licitacao .club
     </description>
     <author email="suporte@licitacao.club" href="https://licitacao.club">
         Equipe licitação.club
@@ -25,7 +25,8 @@
     <icon gap:density="xhdpi" gap:platform="android" src="images/icon-96-xhdpi.png" />
     <icon gap:platform="ios" height="57" src="images/icon-57-hdpi.png" width="57" />
     <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" />
-    <gap:plugin name="org.apache.cordova.inappbrowser" version="0.5.2" />
     <access origin="https://licitacao.club" subdomains="true" />
-    <allow-navigation href="https://licitacao.club/*" />
+    <allow-intent href="https://licitacao.club/*" />
+    <allow-navigation href="http://*/*" />
+    <allow-navigation href="https://*/*" />
 </widget>
