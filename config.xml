@@ -23,7 +23,7 @@
     <icon gap:density="xhdpi" gap:platform="android" src="images/icon-96-xhdpi.png" />
     <icon gap:platform="ios" height="57" src="images/icon-57-hdpi.png" width="57" />
     <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" / -->
-    <!-- gap:plugin name="org.apache.cordova.inappbrowser" version="1.2.0" / -->
+    <gap:plugin name="org.apache.cordova.inappbrowser"/>
     <engine name="android" spec="^4.0.0" />
     <access origin="https://licitacao.club" subdomains="true" />
     <access origin="https://wistia.com" subdomains="true" />
