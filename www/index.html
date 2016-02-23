@@ -63,10 +63,11 @@
     function paginaInicial(){
         //posicionando o logo
        $('#splash_div').css('margin-top',($(window).height() - $('#splash_div').outerHeight())/2 - 100);
-       $('#splash_div').css('margin-left',($(window).width() - 265 /*$('#splash_image').outerWidth()*/ )/2);
+       $('#splash_div').css('margin-left',($(window).width() - 265 )/2); // $('#splash_image').outerWidth()
        $('#splash_image').show(700);
        $.mobile.loading('show');
        
+       alert('antes abreNavegador');
        abreNavegador();
     }
     
