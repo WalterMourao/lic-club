@@ -22,10 +22,16 @@
     </div>
 <script type="text/javascript">
 
+    function debugAlert(msg){
+        alert(msg);
+    }
+
     var theWindow = null;
 
     //abre a página do site
     function abreNavegador(){
+        debugAlert('abreNavegador');
+    
        // external url
        theWindow=window.open('https://licitacao.club/assinante', '_self', 'location=no,hardwareback=yes,hidden=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=yes');
        
@@ -50,8 +56,10 @@
     
     function paginaInicial(){
         //posicionando o logo
+       debugAlert('paginaInicial');
        $('#splash_div').css('margin-top',($(window).height() - $('#splash_div').outerHeight())/2 - 100);
        $('#splash_div').css('margin-left',($(window).width() - 265 )/2); // $('#splash_image').outerWidth()
+       debugAlert('antes show splash');
        $('#splash_image').show(700);
        $.mobile.loading('show');
        
