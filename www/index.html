@@ -35,23 +35,30 @@
        // external url
        theWindow=window.open('https://licitacao.club/assinante', '_self', 'location=no,hardwareback=yes,hidden=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=yes');
        
+       debugAlert('antes eventos');       
+       
        //encerra procedimentos de carregamento, tipo fechar o splash
        theWindow.addEventListener("loadstop", function(e){
+           debugAlert('loadstop');
            $.mobile.loading('hide');
            theWindow.show();
        }, false);
 
        //tratamento de erros
        theWindow.addEventListener("loaderror", function(e){
+           debugAlert('loaderror');
            //e.code tem o código do erro
            $.mobile.changePage('Erro.html');
        }, false);
 
        //faz com que o back button do cel. volte para a página inicial
        theWindow.addEventListener("exit", function(e){
+            debugAlert('show');
             $.mobile.loading('show');
             setTimeout(abreNavegador,1);
        }, false);
+       
+       debugAlert('depois eventos');    
     }
     
     function paginaInicial(){
