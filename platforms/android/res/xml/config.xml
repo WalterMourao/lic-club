@@ -11,7 +11,6 @@
     <preference name="android-minSdkVersion" value="7" />
     <preference name="android-targetSdkVersion" value="21" />
     <preference name="permissions" value="none" />
-    <preference name="phonegap-version" value="3.7.0" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
     <preference name="fullscreen" value="false" />
@@ -26,6 +25,8 @@
     <icon gap:platform="ios" height="57" src="images/icon-57-hdpi.png" width="57" />
     <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" />
     <access origin="https://licitacao.club" subdomains="true" />
+    <access origin="https://wistia.com" subdomains="true" />
+    <access origin="http://wistia.com" subdomains="true" />
     <allow-intent href="https://licitacao.club/*" />
     <allow-navigation href="http://*/*" />
     <allow-navigation href="https://*/*" />

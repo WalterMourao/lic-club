@@ -4,7 +4,8 @@
 }
 
 #splash_image {
+  display: inline-block;
   width: 100%;
-  max-width:355px;
+  max-width:265px;
 }
 
