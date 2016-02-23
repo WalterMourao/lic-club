@@ -27,28 +27,31 @@
     //abre a página do site
     function abreNavegador(){
        // external url
-       //alert('vai abrir');
+       alert('vai abrir');
        //$.mobile.pageContainer.pagecontainer("load", "https://licitacao.club/assinante", { reload: true } );
        //$(":mobile-pagecontainer" ).pagecontainer( "load", "https://licitacao.club/assinante", { role:"page" });
        //$("body").load("https://licitacao.club/assinante");
        //alert('depois');
        theWindow=window.open('https://licitacao.club/assinante', '_self', 'location=no,hardwareback=yes,hidden=yes,allowInlineMediaPlayback=yes,mediaPlaybackRequiresUserAction=yes');
+       alert('abriu');
        
        //encerra procedimentos de carregamento, tipo fechar o splash
        theWindow.addEventListener("loadstop", function(e){
+            alert('loadstop');
            $.mobile.loading('hide');
            theWindow.show();
        }, false);
 
        //tratamento de erros
        theWindow.addEventListener("loaderror", function(e){
+            alert('loaderror');
            //e.code tem o código do erro
            $.mobile.changePage('Erro.html');
        }, false);
 
        //faz com que o back button do cel. volte para a página inicial
        theWindow.addEventListener("exit", function(e){
-            //alert('voltando');
+            alert('exit');
             //alert(theWindow);
             //theWindow.location.href='https://licitacao.club/assinante/retorno-app/';
             //e.preventDefault();
@@ -60,7 +63,7 @@
     function paginaInicial(){
         //posicionando o logo
        $('#splash_div').css('margin-top',($(window).height() - $('#splash_div').outerHeight())/2 - 100);
-       $('#splash_div').css('margin-left',($(window).width() - $('#splash_image').outerWidth())/2);
+       $('#splash_div').css('margin-left',($(window).width() - 265 /*$('#splash_image').outerWidth()*/ )/2);
        $('#splash_image').show(700);
        $.mobile.loading('show');
        
