@@ -16,8 +16,8 @@
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="load-url-timeout" value="20000" />
-    <icon src="www/img/icon.png" />
-    <splash src="www/img/splash.png" />
+    <icon src="/www/img/icon.png" />
+    <!-- splash src="/www/img/splash.png" / -->
     <!-- icon gap:density="ldpi" gap:platform="android" src="images/icon-36-ldpi.png" />
     <icon gap:density="mdpi" gap:platform="android" src="images/icon-48-mdpi.png" />
     <icon gap:density="hdpi" gap:platform="android" src="images/icon-72-hdpi.png" />
