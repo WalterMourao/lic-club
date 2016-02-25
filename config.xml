@@ -16,21 +16,12 @@
     <preference name="show-splash-screen-spinner" value="true" />
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="load-url-timeout" value="20000" />
-    <icon src="www/img/icon.png" />
-    <splash src="/www/img/icon.png" />
+    <!-- icon src="www/img/icon.png" / -->
     <platform name="android">
         <icon src="www/img/icon.png" density="ldpi" />
         <icon src="www/img/icon.png" density="mdpi" />
         <icon src="www/img/icon.png" density="hdpi" />
         <icon src="www/img/icon.png" density="xhdpi" />
-        <splash src="www/img/icon.png" density="land-hdpi"/>
-        <splash src="www/img/icon.png" density="land-ldpi"/>
-        <splash src="www/img/icon.png" density="land-mdpi"/>
-        <splash src="www/img/icon.png" density="land-xhdpi"/>
-        <splash src="www/img/icon.png" density="port-hdpi"/>
-        <splash src="www/img/icon.png" density="port-ldpi"/>
-        <splash src="www/img/icon.png" density="port-mdpi"/>
-        <splash src="www/img/icon.png" density="port-xhdpi"/>
     </platform>
     <!-- icon platform="ios" height="57" src="www/img/icon.png" width="57" />
     <icon platform="ios" height="72" src="www/img/icon.png" width="72" / -->
