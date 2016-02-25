@@ -17,13 +17,23 @@
     <preference name="auto-hide-splash-screen" value="true" />
     <preference name="load-url-timeout" value="20000" />
     <icon src="www/img/icon.png" />
-    <!-- splash src="/www/img/splash.png" / -->
-    <!-- icon gap:density="ldpi" gap:platform="android" src="images/icon-36-ldpi.png" />
-    <icon gap:density="mdpi" gap:platform="android" src="images/icon-48-mdpi.png" />
-    <icon gap:density="hdpi" gap:platform="android" src="images/icon-72-hdpi.png" />
-    <icon gap:density="xhdpi" gap:platform="android" src="images/icon-96-xhdpi.png" />
-    <icon gap:platform="ios" height="57" src="images/icon-57-hdpi.png" width="57" />
-    <icon gap:platform="ios" height="72" src="images/icon-72-hdpi.png" width="72" / -->
+    <splash src="/www/img/icon.png" />
+    <platform name="android">
+        <icon src="www/img/icon.png" density="ldpi" />
+        <icon src="www/img/icon.png" density="mdpi" />
+        <icon src="www/img/icon.png" density="hdpi" />
+        <icon src="www/img/icon.png" density="xhdpi" />
+        <splash src="www/img/icon.png" density="land-hdpi"/>
+        <splash src="www/img/icon.png" density="land-ldpi"/>
+        <splash src="www/img/icon.png" density="land-mdpi"/>
+        <splash src="www/img/icon.png" density="land-xhdpi"/>
+        <splash src="www/img/icon.png" density="port-hdpi"/>
+        <splash src="www/img/icon.png" density="port-ldpi"/>
+        <splash src="www/img/icon.png" density="port-mdpi"/>
+        <splash src="www/img/icon.png" density="port-xhdpi"/>
+    </platform>
+    <!-- icon platform="ios" height="57" src="www/img/icon.png" width="57" />
+    <icon platform="ios" height="72" src="www/img/icon.png" width="72" / -->
     <plugin name="org.apache.cordova.inappbrowser" source="pgb" spec="0.6.0" />
     <engine name="android" spec="^4.0.0" />
     <access origin="https://licitacao.club" subdomains="true" />
